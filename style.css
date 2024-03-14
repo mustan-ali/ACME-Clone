@@ -89,6 +89,22 @@ nav span {
     right: 0;
 }
 
+.hamburger:hover {
+    .patty:nth-child(1) {
+        transform: rotate(45deg);
+        margin-bottom: 10%;
+    }
+
+    .patty:nth-child(2) {
+        transform: rotate(-45deg);
+        margin-top: -30%;
+    }
+
+    .patty:nth-child(3) {
+        display: none;
+    }
+}
+
 .banner {
     display: flex;
     height: 30vh;
